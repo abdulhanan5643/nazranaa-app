@@ -1,0 +1,19 @@
+table tr:nth-child(odd) {
+  background: #f3f3f3;
+}
+table td {
+  border: none !important;
+}
+.tableInput {
+  border: 1px solid #cecece !important;
+  border-radius: 6px;
+  box-shadow: inset 0px 0px 10px 0px rgb(0 0 0 / 10%);
+  width: 50%;
+  text-align: center;
+  color: #555;
+}
+
+.tableInput:before,
+.tableInput:after {
+  display: none;
+}
